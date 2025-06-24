@@ -20,5 +20,14 @@ Multiple errors were observed throughout the email body and headers. Notably, "A
 ⚠️ Urgent Language Tactic:
 The message claimed that the account would be closed within 24 hours if no action was taken. This urgency is a classic social engineering strategy used to induce panic.
 
+| Indicator                 | Description                                                                               |
+| ------------------------- | ----------------------------------------------------------------------------------------- |
+| 🧑‍💻 Spoofed Domain Name | Sender address used `@amaazon.in`, closely mimicking the legitimate Amazon domain.           |
+| 🧠 Urgent Language        | Subject line and content pressured the user to act immediately regarding account closure. |
+| 🔗 Misleading Links       | Hyperlinks visually appeared to point to Amazon but redirected elsewhere.                 |
+| 🪪 Header Anomalies       | SPF and DKIM checks showed inconsistencies with Amazon’s authentic servers.               |
+| 📎 No Attachments         | No file attachment was used, indicating reliance on link-based credential theft.          |
+| 📚 Spelling Errors        | Multiple spelling mistakes such as “Amaazon” and inconsistent branding across the email.  |
+
 ✅ Conclusion
 This email is a clear example of a targeted phishing attempt using spoofed branding, deceptive sender details, and manipulated headers. While the attackers attempted to pass email authentication mechanisms, detailed header analysis revealed the fraud. Spelling inconsistencies, suspicious sending domains, and manipulative urgency reinforce the need for user awareness and robust email security protocols.
